@@ -4,12 +4,10 @@ This repository offers a comprehensive suite of tools and models for text summar
 # Design FlowChart
 Lucidchart link : https://lucid.app/lucidchart/39ecab18-c0f7-416b-8eb0-c04fa4d5490b/edit?viewport_loc=-1639%2C-1134%2C5120%2C2228%2C0_0&invitationId=inv_4e413e17-ddf7-4a04-ac40-64be25a16f4a
 
+# Abstractive Summarization
+
 # Data Collection
-Datasets selected :
-
-•	bbc-news-summary : https://huggingface.co/datasets/gopalkalpande/bbc-news-summary
-
-•	Samsum : https://huggingface.co/datasets/Samsung/samsum
+Dataset selected :
 
 •	Dialoguesum : https://huggingface.co/datasets/knkarthick/dialogsum
 
@@ -20,7 +18,7 @@ Training
 
 -> Framework: Hugging Face API
 
--> Model: T5/Pegasus
+-> Model: google/pegasus-cnn_dailymail
 
 -> Objective: Minimize the training loss
 
@@ -35,3 +33,24 @@ To evaluate the performance of our model, we need to calculate:
 We will use the following metric to validate and evaluate our model:
 
 -> ROUGE (Recall-Oriented Understudy for Gisting Evaluation): This metric helps in measuring the quality of summaries by comparing the overlap of n-grams, word sequences, and word pairs between the generated summary and a reference summary.
+
+# Extractive Summarization
+Extractive Text Summarization model using RoBERTa.
+
+# Approach:
+
+1. Convert the articles/passages into a list of sentences using nltk's sentence tokenizer.
+  
+2. For each sentence, extract contextual embeddings using Sentence transformer.
+
+3. Apply K-means clustering on the embeddings. The idea is to cluster the sentences that are contextually similar to each other & pick one sentence from each cluster that is closest to the mean(centroid).
+ 
+4. For each sentence embedding, calculate the distance from centroid.The distance would be zero if centroid itself is the actual sentence embedding.
+   
+5. For each cluster, select the sentence embedding with lowest distance from centroid & return the summary based on the order in which the sentences appear in the original text.
+
+# Sentence Transformer
+
+Sentence transformer is a python library that alow us to represent the sentences & paragraphs into dense vectors. This package is compatible with the state of the art models like BERT, RoBERTa, XLM-RoBERTa etc.
+
+# Dataset used :

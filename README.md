@@ -49,6 +49,10 @@ Extractive Text Summarization model using RoBERTa.
    
 5. For each cluster, select the sentence embedding with lowest distance from centroid & return the summary based on the order in which the sentences appear in the original text.
 
+# Modification
+
+-> In place of considering only the distance from centroid scores, TF-IDF Vectorization is implemented and we are calculating the TF-IDF scores too. As a result, we are taking the combined score of these two we are considering those sentence embeddings and generated a more accurate summary.
+
 # Sentence Transformer
 
 Sentence transformer is a python library that alow us to represent the sentences & paragraphs into dense vectors. This package is compatible with the state of the art models like BERT, RoBERTa, XLM-RoBERTa etc.
@@ -61,3 +65,6 @@ multi_news : https://huggingface.co/datasets/alexfabbri/multi_news
 We will use the following metric to validate and evaluate our model:
 
 -> ROUGE (Recall-Oriented Understudy for Gisting Evaluation): This metric helps in measuring the quality of summaries by comparing the overlap of n-grams, word sequences, and word pairs between the generated summary and a reference summary.
+
+# Interface :
+Started working on it, exploring Flask, FastApi, etc

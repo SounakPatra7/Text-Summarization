@@ -54,3 +54,10 @@ Extractive Text Summarization model using RoBERTa.
 Sentence transformer is a python library that alow us to represent the sentences & paragraphs into dense vectors. This package is compatible with the state of the art models like BERT, RoBERTa, XLM-RoBERTa etc.
 
 # Dataset used :
+
+multi_news : https://huggingface.co/datasets/alexfabbri/multi_news
+
+# Evaluation :
+We will use the following metric to validate and evaluate our model:
+
+-> ROUGE (Recall-Oriented Understudy for Gisting Evaluation): This metric helps in measuring the quality of summaries by comparing the overlap of n-grams, word sequences, and word pairs between the generated summary and a reference summary.

@@ -68,7 +68,8 @@ We will use the following metric to validate and evaluate our model:
 
 # Interface :
 Made an demo interface using Gradio which gives functionality to choose between which type of summarization we want to perform.
-public URL: https://66b8dafd039b11fad5.gradio.live (This share link expires in 72 hours)
+
+Public URL: https://66b8dafd039b11fad5.gradio.live (This share link expires in 72 hours)
 
 # Application :
 Working on it.

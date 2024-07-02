@@ -67,4 +67,8 @@ We will use the following metric to validate and evaluate our model:
 -> ROUGE (Recall-Oriented Understudy for Gisting Evaluation): This metric helps in measuring the quality of summaries by comparing the overlap of n-grams, word sequences, and word pairs between the generated summary and a reference summary.
 
 # Interface :
-Started working on it, exploring Flask, FastApi, etc
+Made an demo interface using Gradio which gives functionality to choose between which type of summarization we want to perform.
+public URL: https://66b8dafd039b11fad5.gradio.live (This share link expires in 72 hours)
+
+# Application :
+Working on it.

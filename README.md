@@ -72,4 +72,42 @@ Made an demo interface using Gradio which gives functionality to choose between 
 Public URL: https://66b8dafd039b11fad5.gradio.live (This share link expires in 72 hours)
 
 # Application :
+Python-based web application for text summarization using FastAPI and Hugging Face's Transformers library. The application provides both abstractive and extractive summarization methods and includes a user-friendly interface for inputting text and viewing summaries.
+
+# Features
+-> Abstractive Summarization: Utilizes a pre-trained Seq2Seq model for generating summaries based on input text.
+
+-> Extractive Summarization: Implements an algorithm to extract key sentences from the input text to form a summary.
+
+-> User Interface: A clean and intuitive web interface powered by FastAPI and styled with HTML and CSS.
+
+-> Error Handling: Robust error handling to manage cases such as empty input and provide clear feedback to users.
+
+-> Performance: Optimized for speed and efficiency, leveraging GPU acceleration where available to minimize summarization time.
+
+-> Deployment: Easily deployable using Docker, ensuring consistency across different environments.
+
+# Usage
+-> Enter text in the input box.
+
+-> Choose the type of summarization (abstractive or extractive).
+
+-> Click the "Summarize" button to generate a summary.
+
+-> Use the "Clear" button to reset the input and summary sections.
+
+# Technologies used
+-> Technologies Used
+
+-> Python
+
+-> FastAPI
+
+-> Hugging Face Transformers
+
+-> HTML/CSS
+
+-> Docker
+
+# Report
 Working on it.

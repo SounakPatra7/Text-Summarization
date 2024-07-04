@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+transformers
+torch
+sentence-transformers
+nltk
+scipy
+scikit-learn
+pandas
+numpy
+sentencepiece

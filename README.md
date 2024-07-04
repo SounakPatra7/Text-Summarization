@@ -66,15 +66,15 @@ We will use the following metric to validate and evaluate our model:
 
 -> ROUGE (Recall-Oriented Understudy for Gisting Evaluation): This metric helps in measuring the quality of summaries by comparing the overlap of n-grams, word sequences, and word pairs between the generated summary and a reference summary.
 
-# Interface :
+# Interface 
 Made an demo interface using Gradio which gives functionality to choose between which type of summarization we want to perform.
 
 Public URL: https://66b8dafd039b11fad5.gradio.live (This share link expires in 72 hours)
 
-# Application :
+# Application 
 Python-based web application for text summarization using FastAPI and Hugging Face's Transformers library. The application provides both abstractive and extractive summarization methods and includes a user-friendly interface for inputting text and viewing summaries.
 
-# Features
+# Features :
 -> Abstractive Summarization: Utilizes a pre-trained Seq2Seq model for generating summaries based on input text.
 
 -> Extractive Summarization: Implements an algorithm to extract key sentences from the input text to form a summary.
@@ -87,7 +87,7 @@ Python-based web application for text summarization using FastAPI and Hugging Fa
 
 -> Deployment: Easily deployable using Docker, ensuring consistency across different environments.
 
-# Usage
+# Usage :
 -> Enter text in the input box.
 
 -> Choose the type of summarization (abstractive or extractive).
@@ -96,9 +96,7 @@ Python-based web application for text summarization using FastAPI and Hugging Fa
 
 -> Use the "Clear" button to reset the input and summary sections.
 
-# Technologies used
--> Technologies Used
-
+# Technologies used : 
 -> Python
 
 -> FastAPI

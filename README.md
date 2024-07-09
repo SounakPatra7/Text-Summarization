@@ -11,14 +11,14 @@ Dataset selected :
 
 •	Dialoguesum : https://huggingface.co/datasets/knkarthick/dialogsum
 
-# Model Training and Vlidation
+# Model Training and Validation
 For training our text summarization model, I have planned on using the T5/Pegasus models from Hugging Face.
 
 Training
 
 -> Framework: Hugging Face API
 
--> Model: google/pegasus-cnn_dailymail
+-> Model: google-t5/t5-base
 
 -> Objective: Minimize the training loss
 

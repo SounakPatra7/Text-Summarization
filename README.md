@@ -1,43 +1,40 @@
 # Text-Summarization
 This repository offers a comprehensive suite of tools and models for text summarization, a vital task in natural language processing (NLP) aimed at condensing lengthy documents into concise summaries while preserving key information. Whether you're a researcher exploring cutting-edge techniques or an application developer seeking to integrate text summarization capabilities into your projects, this repository provides a robust foundation.
 
-# Design FlowChart
-Lucidchart link : https://lucid.app/lucidchart/39ecab18-c0f7-416b-8eb0-c04fa4d5490b/edit?viewport_loc=-1639%2C-1134%2C5120%2C2228%2C0_0&invitationId=inv_4e413e17-ddf7-4a04-ac40-64be25a16f4a
+## Abstractive Summarization
 
-# Abstractive Summarization
-
-# Data Collection
+### Data Collection
 Dataset selected :
 
 •	Dialoguesum : https://huggingface.co/datasets/knkarthick/dialogsum
 
-# Model Training and Validation
+### Model Training and Validation
 For training our text summarization model, I have planned on using the T5/Pegasus models from Hugging Face.
 
 Training
 
 -> Framework: Hugging Face API
 
--> Model: google-t5/t5-base
+-> Model: google/pegasus-cnn_dailymail
 
 -> Objective: Minimize the training loss
 
-# Evaluation Metrics
+### Evaluation Metrics
 To evaluate the performance of our model, we need to calculate:
 
 -> Average Training Loss: To monitor how well the model is learning during training.
 
 -> Average Validation Loss: To assess how well the model generalizes to unseen data.
 
-# Performance Metrics
+### Performance Metrics
 We will use the following metric to validate and evaluate our model:
 
 -> ROUGE (Recall-Oriented Understudy for Gisting Evaluation): This metric helps in measuring the quality of summaries by comparing the overlap of n-grams, word sequences, and word pairs between the generated summary and a reference summary.
 
-# Extractive Summarization
+## Extractive Summarization
 Extractive Text Summarization model using RoBERTa.
 
-# Approach:
+### Approach:
 
 1. Convert the articles/passages into a list of sentences using nltk's sentence tokenizer.
   
@@ -49,32 +46,32 @@ Extractive Text Summarization model using RoBERTa.
    
 5. For each cluster, select the sentence embedding with lowest distance from centroid & return the summary based on the order in which the sentences appear in the original text.
 
-# Modification
+### Modification
 
 -> In place of considering only the distance from centroid scores, TF-IDF Vectorization is implemented and we are calculating the TF-IDF scores too. As a result, we are taking the combined score of these two we are considering those sentence embeddings and generated a more accurate summary.
 
-# Sentence Transformer
+### Sentence Transformer
 
 Sentence transformer is a python library that alow us to represent the sentences & paragraphs into dense vectors. This package is compatible with the state of the art models like BERT, RoBERTa, XLM-RoBERTa etc.
 
-# Dataset used :
+### Dataset used :
 
 multi_news : https://huggingface.co/datasets/alexfabbri/multi_news
 
-# Evaluation :
+### Evaluation :
 We will use the following metric to validate and evaluate our model:
 
 -> ROUGE (Recall-Oriented Understudy for Gisting Evaluation): This metric helps in measuring the quality of summaries by comparing the overlap of n-grams, word sequences, and word pairs between the generated summary and a reference summary.
 
-# Interface 
+## Interface 
 Made an demo interface using Gradio which gives functionality to choose between which type of summarization we want to perform.
 
 Public URL: https://66b8dafd039b11fad5.gradio.live (This share link expires in 72 hours)
 
-# Application 
+## Application 
 Python-based web application for text summarization using FastAPI and Hugging Face's Transformers library. The application provides both abstractive and extractive summarization methods and includes a user-friendly interface for inputting text and viewing summaries.
 
-# Features :
+### Features :
 -> Abstractive Summarization: Utilizes a pre-trained Seq2Seq model for generating summaries based on input text.
 
 -> Extractive Summarization: Implements an algorithm to extract key sentences from the input text to form a summary.
@@ -87,7 +84,7 @@ Python-based web application for text summarization using FastAPI and Hugging Fa
 
 -> Deployment: Easily deployable using Docker, ensuring consistency across different environments.
 
-# Usage :
+### Usage :
 -> Enter text in the input box.
 
 -> Choose the type of summarization (abstractive or extractive).
@@ -96,7 +93,7 @@ Python-based web application for text summarization using FastAPI and Hugging Fa
 
 -> Use the "Clear" button to reset the input and summary sections.
 
-# Technologies used : 
+### Technologies used : 
 -> Python
 
 -> FastAPI
@@ -107,5 +104,5 @@ Python-based web application for text summarization using FastAPI and Hugging Fa
 
 -> Docker
 
-# Report
-Working on it.
+## Report
+Completed the report. Detailed information about the project is discussed in the Report.

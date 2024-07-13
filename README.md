@@ -4,7 +4,7 @@ This repository offers a comprehensive suite of tools and models for text summar
 ## Abstractive Summarization
 
 ### Data Collection
-Dataset selected :
+Dataset selected
 
 •	Dialoguesum : https://huggingface.co/datasets/knkarthick/dialogsum
 
@@ -18,6 +18,24 @@ Training
 -> Model: google/pegasus-cnn_dailymail
 
 -> Objective: Minimize the training loss
+
+```saved_model, file structure:
+└── fine_tuned_pegasus
+
+    ├── config.json
+
+    ├── generation_config.json
+
+    ├── model.safetensors
+
+    ├── special_tokens_map.json
+
+    ├── tokenizer.json
+
+    ├── tokenizer_config.json
+
+    └── spiece.model
+```
 
 ### Evaluation Metrics
 To evaluate the performance of our model, we need to calculate:

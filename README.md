@@ -19,7 +19,8 @@ Training
 
 -> Objective: Minimize the training loss
 
-```saved_model, file structure:
+```
+saved_model, file structure:
 └── fine_tuned_pegasus
 
     ├── config.json

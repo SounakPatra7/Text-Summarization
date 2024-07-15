@@ -125,3 +125,7 @@ Python-based web application for text summarization using FastAPI and Hugging Fa
 
 ## Report
 Completed the report. Detailed information about the project is discussed in the Report.
+
+## Presentation
+
+Canva Link : https://www.canva.com/design/DAGK8VV_Sq8/gChyF0hYFwnS9la0wV2Acg/view?utm_content=DAGK8VV_Sq8&utm_campaign=designshare&utm_medium=link&utm_source=editor

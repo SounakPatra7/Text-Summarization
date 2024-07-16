@@ -1,3 +1,4 @@
+![springboard-logo](https://github.com/user-attachments/assets/b3c7dac9-5910-4256-a1b1-94bfd423942e)
 # Text-Summarization
 This repository offers a comprehensive suite of tools and models for text summarization, a vital task in natural language processing (NLP) aimed at condensing lengthy documents into concise summaries while preserving key information. Whether you're a researcher exploring cutting-edge techniques or an application developer seeking to integrate text summarization capabilities into your projects, this repository provides a robust foundation.
 

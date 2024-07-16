@@ -1,4 +1,4 @@
-<p align="center"><img src="https://www.infosys.com/content/dam/infosys-web/en/about/springboard/images/infosys-springboard.png" width="300" height=200"></p>
+<p align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS95Z4YVYbM6SAVHtlkuUqaFnyVFoQG54p-7A&s" width="300" height=200"></p>
 # Text-Summarization
 This repository offers a comprehensive suite of tools and models for text summarization, a vital task in natural language processing (NLP) aimed at condensing lengthy documents into concise summaries while preserving key information. Whether you're a researcher exploring cutting-edge techniques or an application developer seeking to integrate text summarization capabilities into your projects, this repository provides a robust foundation.
 

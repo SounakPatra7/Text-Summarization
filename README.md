@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/user-attachments/assets/0f309e0e-dbbe-4109-8167-84ddbbb03a53" width="300" height="200"></p>
+<p align="center"><img src="https://github.com/user-attachments/assets/0f309e0e-dbbe-4109-8167-84ddbbb03a53" width="100" height="50"></p>
 # Text-Summarization
 This repository offers a comprehensive suite of tools and models for text summarization, a vital task in natural language processing (NLP) aimed at condensing lengthy documents into concise summaries while preserving key information. Whether you're a researcher exploring cutting-edge techniques or an application developer seeking to integrate text summarization capabilities into your projects, this repository provides a robust foundation.
 
